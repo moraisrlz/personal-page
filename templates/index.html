@@ -1,10 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flamengo - Paixão e Tradição</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Minha página pessoal</h1>
+    <header>
+        <h1>Flamengo - Paixão e Tradição</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#noticias">Notícias</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#torcida">Torcida</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo ao Flamengo!</h2>
+        <p>Com uma história rica e uma torcida apaixonada, o Flamengo é um dos clubes mais icônicos do futebol brasileiro.</p>
+        <img src="maracana.jpg" alt="Estádio do Maracanã">
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre o Flamengo</h2>
+        <h3>História</h3>
+        <p>O Flamengo foi fundado em 1895, originalmente como um clube de remo. Foi no futebol que o clube encontrou sua verdadeira paixão.</p>
+
+        <h3>Títulos</h3>
+        <p>O Flamengo possui uma vasta coleção de títulos, incluindo vários campeonatos brasileiros e Copas Libertadores.</p>
+
+        <h3>Estádio</h3>
+        <p>O Maracanã é o templo do Flamengo, com capacidade para mais de 78.000 espectadores.</p>
+    </section>
+
+    <section id="equipe">
+        <h2>Equipe Atual</h2>
+        <p>Conheça os craques do Flamengo que estão fazendo história no clube.</p>
+        <!-- Adicione fotos e biografias dos jogadores aqui -->
+    </section>
+
+    <section id="noticias">
+        <h2>Últimas Notícias</h2>
+        <p>Fique por dentro das últimas notícias do Flamengo.</p>
+        <!-- Adicione as notícias mais recentes aqui -->
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <h3>Conquista de 1981</h3>
+        <img src="flamengo-1981.jpg" alt="Flamengo 1981">
+
+        <h3>Conquista de 2019</h3>
+        <img src="flamengo-2019.jpg" alt="Flamengo 2019">
+    </section>
+
+    <section id="torcida">
+        <h2>Torcida</h2>
+        <p>A torcida do Flamengo é uma das mais apaixonadas e numerosas do Brasil.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" value="Matheus Morais Nascimento" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="mathmorais23@gmail.com" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Flamengo - Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
